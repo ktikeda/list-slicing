@@ -61,8 +61,8 @@ def custom_append(input_list, value):
 
     """
 
-    pass
-
+    input_list = input_list + [value]
+    
 
 def custom_extend(input_list, second_list):
     """Append every item in second_list to input_list.
@@ -80,7 +80,9 @@ def custom_extend(input_list, second_list):
 
     """
 
-    pass
+    # for item in second_list:
+    #     input_list = input_list + [item]
+
 
 
 def custom_insert(input_list, index, value):
